@@ -99,7 +99,7 @@ int main()
 
     struct book *mybookPtr= NULL;
     //mybookPtr= (struct book*)malloc (100* sizeof(struct book));
-    struct book mybook[100]=NULL;
+    struct book mybook[100]={0};
     mybookPtr=&mybook;
 
     mybook[0].an=0;
